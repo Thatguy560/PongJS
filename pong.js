@@ -218,10 +218,10 @@ canvas.addEventListener('mousemove', event => {
   pong.players[0].pos.y = canvas.height * scale;
 });
 
-canvas.addEventListener('touchmove', event => {
-  const scale = event.offsetY / event.target.getBoundingClientRect().height;
-  pong.players[0].pos.y = canvas.height * scale;
-});
+// canvas.addEventListener('touchmove', event => {
+//   const scale = event.offsetY / event.target.getBoundingClientRect().height;
+//   pong.players[0].pos.y = canvas.height * scale;
+// });
 
 // On mouse-click this calls the start method which commences the game and 
 // gets the ball moving. 
