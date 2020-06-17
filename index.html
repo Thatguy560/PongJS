@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Peter's Pong Game</title>
+    <style>
+        body {
+          align-items: center;
+          background-image: url("https://www.nicepng.com/png/full/90-901445_58e3ae0c209f6.png");
+          opacity: 0.9;
+          background-repeat: no-repeat;  
+          background-position: 0% 0%;
+          background-size: 100% 100%;
+          display: flex;
+          margin: 0;
+        }
+        canvas {
+          border: solid 1px #fff;
+          border-left: none;
+          border-right: none;
+          image-rendering: pixelated;
+          height: 100%;
+          margin: 0 auto;
+        }
+
+        .vertical { 
+          border-left: 6px dashed white; 
+          height: 900px; 
+          position:absolute; 
+          left: 50%;
+          padding: 0;
+          margin: 0; 
+          
+        } 
+
+    </style> 
+  </head>
+  <body>
+    <div class="vertical"></div>
+    <canvas id="pong" width="600" height="400" />
+    <script src="pong.js"></script>
+</body>
+</html>
