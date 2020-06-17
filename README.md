@@ -8,7 +8,7 @@ $ Click on this link to deploy the app via Heroku 'https://peters-pong-app.herok
 
 $ Alternatively git clone "https://github.com/Thatguy560/PongJS.git"
 
-$ Type in your browser url "file:///Users/student/Projects/JS-Practice/pong/index.html".
+$ Then type in command line 'pwd' to get the file location, then copy into your browser this file location with '/index.html' added at the end e.g. "file:///Users/student/Projects/JS-Practice/pong/index.html" 
 
 ## Deploying static HTML and single Javascript file to Heroku
 
