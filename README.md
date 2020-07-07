@@ -2,7 +2,7 @@
 
 Pong In Javascript
 
-![Screenshot](https://github.com/Thatguy560/PongJS/blob/master/Screenshot%202020-06-30%20at%2017.52.09.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/Thatguy560/PongJS/master/Assets/Screenshot%202020-06-30%20at%2017.52.09.png)
 
 ## Using the Application In Heroku or Locally
 
@@ -20,4 +20,4 @@ https://stackoverflow.com/questions/10551273/is-it-possible-to-upload-a-simple-h
 
 # Technologies Used
 
-#### Javascript, HTML/CSS
+#### Javascript, HTML/CSS, Heroku
